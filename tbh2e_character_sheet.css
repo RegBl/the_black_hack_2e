@@ -1,0 +1,64 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+
+table {
+    border-bottom: 2px solid #333;
+}
+
+td {
+    width: 12em;
+}
+
+#armour td {
+    opacity: 0;
+}
+
+#armour th {
+    font-weight: 900;
+    text-align: start;
+}
+
+#armour tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+#container {
+    width: 25em;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+
+#inventory th {
+    background-color: black;
+    color: white;
+    padding: 0.5em 0;
+    text-align: center;
+    width: 24.3em;
+}
+
+#inventory td {
+    font-family: serif;
+    font-size: x-small;
+    font-weight: 400;
+    height: 2em;
+}
+
+#inventory tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+#stat-block {
+    border-top: 2px solid #333;
+}
