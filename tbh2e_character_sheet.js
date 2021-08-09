@@ -1,3 +1,5 @@
+'use strict';
+
 const init = () => {
     let statLabels = [
         document.querySelector("#strLabel"),
